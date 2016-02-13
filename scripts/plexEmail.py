@@ -1072,3 +1072,4 @@ with con:
       print 'Emails were not sent because the option is disabled in the config file.'
     else:
       print 'Emails were not sent because there were no new additions in the timeframe specified.'
+	  
