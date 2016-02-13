@@ -442,6 +442,7 @@ def createEmailHTML():
                         <tr><td><h1 style="width: 100%; text-align: center; background: #272727 !important;"><font style="color: #F9AA03;">""" + config['msg_header1'] + """</font></h1></td></tr>
                         <tr><td><h2 style="width: 100%; text-align: center; background: #272727 !important;"><font style="color: #9A9A9A;">""" + config['msg_header2'] + """</font></h2></td></tr>
                         <tr><td><h2 style="width: 100%; text-align: center; background: #272727 !important;"><font style="color: #9A9A9A;">""" + config['msg_header3'] + """</font></h2></td></tr>
+			<tr><td><h2 style="width: 100%; text-align: center; background: #272727 !important;"><font style="color: #9A9A9A;">Favorite Movie or TV Show missing from the server? <a href="http://knox-srv.duckdns.org:55002">Request</a> it!<br>Don\'t want to recieve this? Reply back asking to unsubscribe!</font></h2></td></tr>
                     </table>
 
             <!-- Page Content -->
@@ -574,6 +575,7 @@ def createWebHTML():
                   <div class="container">
                       <h1>""" + config['msg_header1'] + """</h1>
                       <h2>""" + config['msg_header2'] + """</h2>
+		      <h3>Favorite Movie or TV Show missing from the server? <a href="http://knox-srv.duckdns.org:55002">Request</a> it!</h3>
                   </div>
               </div>
           </header>
